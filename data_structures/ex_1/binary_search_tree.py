@@ -73,7 +73,3 @@ class BinarySearchTree:
         max_value = current.value
       current = current.right
     return max_value
-
-
-    arr = []
-    cb = lambda x: arr.append(x)
